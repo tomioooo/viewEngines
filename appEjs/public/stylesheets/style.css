@@ -1,8 +1,35 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: radial-gradient(circle at top, #ffd8f8 0%, #ffebff 48%, #c29fdc 100%);
+  color: #3a1f58;
+}
+
+.madoka-hero {
+  max-width: 860px;
+  margin: 0 auto 24px;
+  padding: 30px 28px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.92);
+  border: 2px solid #ff9ed8;
+  box-shadow: 0 16px 30px rgba(91, 32, 86, 0.28);
+}
+
+.madoka-hero h1 {
+  margin: 0 0 10px;
+  color: #792b80;
+}
+
+.madoka-about, .madoka-abilities {
+  max-width: 860px;
+  margin: 0 auto 20px;
+  background: rgba(255, 255, 255, 0.72);
+  border-radius: 12px;
+  border: 1px solid #f7c9ed;
+  padding: 18px;
 }
 
 a {
-  color: #00B7FF;
+  color: #bf3abf;
 }
+
